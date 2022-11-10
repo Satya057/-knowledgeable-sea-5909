@@ -1,0 +1,86 @@
+/* Css for clients edit modal */
+
+.editModal {
+  height: 380px;
+  width: 40%;
+  margin: auto;
+  margin-top: 3%;
+  border: 1px solid #666666;
+  border-radius: 2px;
+  outline: none;
+  background-color: white;
+}
+.editModal33 {
+  height: 10px;
+  width: 40%;
+  margin: auto;
+  margin-top: 3%;
+  border: 1px solid #666666;
+  border-radius: 2px;
+  outline: none;
+  background-color: white;
+}
+.editModal2 {
+  width: 74%;
+  height: 500px;
+  margin: auto;
+  margin-top: 5%;
+  outline: none;
+  background-color: white;
+  overflow: auto;
+  border: 1px solid #666666;
+}
+
+.editModal > h2 {
+  padding: 3.5%;
+  margin-bottom: -5px;
+  margin-left: 15px;
+  color: #666666;
+}
+
+.inputBox {
+  width: 400px;
+}
+
+.inputBox > h4 {
+  margin-left: 7%;
+}
+
+.inputBox > input {
+  width: 63%;
+  padding-left: 2%;
+  margin-left: 20px;
+}
+
+.editModalButtons > button:nth-child(1) {
+  border: none;
+  color: #57c4f5;
+  margin-left: 52%;
+}
+
+.editModalButtons > button:nth-child(2) {
+  border: 1px solid #57c4f5;
+  width: 25%;
+  background: #57c4f5;
+  color: white;
+  margin-left: 6%;
+  padding: 10px;
+}
+.sortK {
+  outline: none;
+  color: rgb(30, 135, 240);
+  border: none;
+  height: 34px;
+  width: 100px;
+  position: absolute;
+  top: 18vh;
+  left: 54vw;
+  font-size: 17px;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.underline1:hover {
+  border-bottom: 1px solid blue;
+  width: 20%;
+}

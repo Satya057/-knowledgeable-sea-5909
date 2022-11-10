@@ -1,0 +1,20 @@
+.MapStyle {
+  display: flex;
+  overflow: auto;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.MapStyle::-webkit-scrollbar {
+  display: none;
+}
+.editModal {
+  height: 380px;
+  width: 40%;
+  margin: auto;
+  margin-top: 3%;
+  border: 1px solid #666666;
+  border-radius: 2px;
+  outline: none;
+  background-color: white;
+}

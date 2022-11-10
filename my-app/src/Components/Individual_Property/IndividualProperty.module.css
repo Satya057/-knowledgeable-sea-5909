@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.individualPropMainFlexDiv674 {
+  flex-wrap: nowrap;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  background: #fff;
+  color: #666;
+}
+.individualPropTopBreadcrumbDiv {
+  padding-bottom: 0 !important;
+  padding: 40px;
+}
+.individualPropTopBreadcrumbUL {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  margin: 0 0 20px 0;
+}
+.individualPropTopBreadcrumbLI {
+  flex: none;
+  list-style: none;
+}
+.individualPropTopBreadcrumbHRTAG {
+  overflow: visible;
+  text-align: inherit;
+  margin: 20px 0 20px 0;
+  border: 0;
+  border-top: 1px solid #e5e5e5;
+}
+.individualPropPicsWalaHeadDiv {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  list-style: none;
+}
+.individualPropPicsWalaSUBDiv {
+  width: 580px;
+  margin: 0;
+  margin-left: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.individualPropPicsWalaImage1Div {
+  height: 310px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0;
+  margin: 0px;
+}
+.individualPropPicsWalaImage1SUBDiv {
+  height: 100%;
+  padding: 1px;
+  margin-bottom: 0;
+  background: #fff;
+  color: #666;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+  box-sizing: border-box;
+  transition: box-shadow 0.1s ease-in-out;
+}
+.individualPropPicsWalaImage1SUBDiv img {
+  display: block;
+  width: 99%;
+  height: 99%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.individualPropPicsWalaImage2Div {
+  margin-top: 0;
+  height: 155px;
+  box-sizing: border-box;
+  padding-left: 0;
+}
+.individualPropPicsWalaImage2SUBDiv {
+  height: 100%;
+  padding: 1px;
+  background: #fff;
+  color: #666;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+  box-sizing: border-box;
+  transition: box-shadow 0.1s ease-in-out;
+}
+.individualPropPicsWalaImage2SUBDiv img {
+  display: block;
+  width: 99%;
+  height: 99%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.individualPropPicsWalaTitleHeadDiv {
+  margin-top: 20px !important;
+  margin-bottom: 20px;
+  flex: 1;
+  min-width: 1px;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 0;
+}
+.individualPropPicsWalaTitleSubDiv {
+  margin-bottom: 0;
+  padding: 40px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.individualPropLocIcon {
+  float: left;
+  width: 20px;
+}
+.individualPropTopTagsHeadDiv {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.individualPropTopTagsHeadDiv div,
+.individualPropAmenitiesTagsContainer div {
+  padding: 10px 20px 10px 0;
+}
+.individualPropTopTagsHeadDiv > div > span,
+.individualPropAmenitiesTagsContainer > div > span {
+  background: white;
+  border: 1px solid #1e87f0;
+  color: #1e87f0;
+  padding: 5px 10px;
+  display: inline-block;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  vertical-align: middle;
+  white-space: nowrap;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+.individualPropToggleMenu {
+  background: white;
+  padding: 0px 30px;
+  position: sticky;
+  top: 0px;
+  width: 947px;
+  z-index: 980;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+}
+.individualPropToggleMenuUL {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+.individualPropToggleMenuLI {
+  display: flex;
+  padding: 15px 20px 15px 40px;
+  position: relative;
+  list-style: none;
+}
+.individualPropToggleMenuLI > span {
+  top: 2px;
+  position: relative;
+  left: 2px;
+  color: #999;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  height: 20px;
+}
+#individualPropOverview {
+  padding: 40px;
+  padding-top: 0 !important;
+}
+.individualPropOverView2 {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.individualPropOverView2LEFT {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 450px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center !important;
+  margin-left: -15px;
+  justify-content: center;
+}
+.individualPropTypeOfProperty {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+}
+.individualPropTypeOfPropertyText {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center !important;
+  background: #fff;
+  color: #666;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+  padding: 40px 40px;
+  transition: box-shadow 0.1s ease-in-out;
+}
+.individualPropTypeOfPropertyText span,
+.individualPropBedAndBath > div > span {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #333;
+  display: block;
+}
+.individualPropBedAndBath {
+  margin-top: 15px;
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.individualPropBedAndBath div {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center !important;
+  background: #fff;
+  color: #666;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+  padding: 40px 40px;
+  transition: box-shadow 0.1s ease-in-out;
+}
+.individualPropOverView2RIGHT {
+  margin-top: 0 !important;
+  flex: 1;
+  min-width: 1px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  width: 100%;
+}
+.individualPropContentDesc {
+  margin-top: 0px;
+}
+.individualPropAmenitiesMain {
+  padding-top: 0 !important;
+  padding: 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+.individualPropAmenitiesTagsContainer {
+  margin-bottom: 20px;
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.individualPropMapsMain {
+  padding-top: 0 !important;
+  padding: 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+.individualPropRealMap {
+  width: 100%;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: relative;
+  height: 300px;
+  box-sizing: border-box;
+}
+.yeHaiMapWalaDiv {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.individualPropPoliciesMain {
+  margin-bottom: 0;
+  margin-left: -40px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.individualPropPoliciesMain div,
+.individualPropPoliciesMain p {
+  text-align: left;
+}
+.individualPropPoliciesMainFirstCol {
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 40px;
+  margin: 0;
+}
+.individualPropStringentDiv {
+  margin-bottom: 30px;
+  position: relative;
+  box-sizing: border-box;
+}
+.individualPropPricingMain {
+  width: 25%;
+  box-sizing: border-box;
+  text-align: left !important;
+}
+.individualPropPricingSUB {
+  position: sticky;
+  top: 0px;
+  width: 316px;
+  border-left: 1px solid #ddddde;
+  min-height: calc(100vh);
+  z-index: 980;
+  box-sizing: border-box;
+  margin: 0 !important;
+  backface-visibility: hidden;
+}
+.individualPropStartingPrice {
+  color: black;
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 3.25rem;
+  text-align: left;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-transform: none;
+}
+.individualPropPricingInputsFlex {
+  flex-direction: column;
+  display: flex;
+}
+.individualPropPricingInputDanger {
+  background: #fef4f6;
+  color: #f0506e;
+  position: relative;
+  padding: 15px 29px 15px 15px;
+}
+.individualPropPricingInputDangerSUB {
+  align-content: space-around;
+  flex-wrap: wrap;
+  display: flex;
+}
+.individualPropPricingUnitSelect {
+  -webkit-appearance: none;
+  padding-right: 20px;
+  background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2224%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%201%209%206%2015%206%22%20%2F%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%2013%209%208%2015%208%22%20%2F%3E%0A%3C%2Fsvg%3E%0A);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  height: 40px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 100%;
+  padding: 0 10px;
+  background: #fff;
+  color: #666;
+  border: 1px solid #e5e5e5;
+  transition: 0.2s ease-in-out;
+  transition-property: color, background-color, border;
+  text-transform: none;
+  box-sizing: border-box;
+  margin: 0;
+  font: inherit;
+}
+.individualPropRqsToBookBtn {
+  background-color: #8ec3f7;
+  color: #fff;
+  border-color: #4ea0f3;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 40px;
+  line-height: 53px;
+  height: 53px;
+  font-size: 0.875rem;
+  border: 1px solid transparent;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
+  vertical-align: middle;
+  overflow: visible;
+  font: inherit;
+  margin: 0px;
+  cursor: pointer;
+}
+.individualPropPricingInputSuccess {
+  margin-bottom: 0px;
+  background: #edfbf6;
+  color: #32d296;
+  position: relative;
+  padding: 15px 29px 15px 15px;
+}
+.individualPropPricingInputSuccessFlexWrap {
+  align-content: space-around;
+  flex-wrap: wrap;
+  display: flex;
+}
