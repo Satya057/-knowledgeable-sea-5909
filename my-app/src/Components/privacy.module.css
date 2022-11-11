@@ -1,0 +1,24 @@
+.faq{
+    font-family: 'Roboto',arial,helvetica,sans-serif;
+    margin-top: 0;
+    font-weight: 300;
+    color: #565656;
+    line-height: 1.3em;
+    padding:0px 100px;
+    width:100%;
+    /* border: 10px solid red; */
+    box-sizing: border-box;
+}
+.faq1{
+    margin-right:auto;
+    margin-left:auto;
+    padding-left:25px;
+          padding-right:25px;
+          line-height:1.3em;
+          margin:"0 0 10px ";
+    /* border: 5px solid yellow; */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-sizing: border-box;
+
+}
