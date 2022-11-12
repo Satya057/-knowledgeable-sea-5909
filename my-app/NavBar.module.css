@@ -1,0 +1,31 @@
+.sideNav_head {
+  color: white;
+  padding: 5px 0;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  text-align: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.sideNav_cap {
+  text-align: center;
+  color: #ffffff80;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.sideNav_sm {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #ffffff80;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.sideNav_copyright {
+  text-align: center;
+  color: #ffffff80;
+  height: 17vh;
+  cursor: pointer;
+}
+
+/* /////// MAKE IT 28VH FOR NAVBAR Nil in sideNav_copyright  */
