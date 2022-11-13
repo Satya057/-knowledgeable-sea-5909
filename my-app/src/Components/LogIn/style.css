@@ -1,0 +1,285 @@
+.navbar {
+  background-color: #2C3742 ;
+  display: flex;
+  height: 70px;
+  margin-left: 2px;
+}
+
+.img-register {
+  padding: 0px 0px 0px 3px;
+
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+  flex: 0.07;
+  cursor: pointer;
+}
+.nav-text {
+  color: #ffffff;
+
+  margin-top: 22px;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  flex: 0.89;
+}
+
+.nav-button-sign {
+  height: 39px;
+  margin-top: 16px;
+  background-color: #db4a67;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  padding: 6px;
+  border-radius: 5px;
+  margin-left: 13px;
+  flex: 0.09;
+  cursor: pointer;
+  border-color: #db4a67;
+}
+
+/* ////////////////// */
+
+.header-navbar {
+  padding: 13px;
+  background-color: rgba(248, 248, 248, 0.9);
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  font-size: 16px;
+
+  color: #868686;
+}
+
+.register-input {
+  padding: 5px;
+  width: 43%;
+  height: 20px;
+  margin-right: 6%;
+}
+.register-input:hover {
+  outline: none;
+}
+
+.register-input2 {
+  padding: 5px;
+  width: 40%;
+  height: 20px;
+}
+.register-input2:hover {
+  outline: none;
+}
+
+.register-input3 {
+  margin-top: 15px;
+  width: 10%;
+  height: 20px;
+  padding: 4px;
+  margin-left: 55px;
+}
+.register-input3:hover {
+  outline: none;
+}
+
+.register-input4 {
+  margin-top: 15px;
+  width: 26%;
+  height: 20px;
+  padding: 4px;
+  margin-left: 10px;
+}
+.register-input4:hover {
+  outline: none;
+}
+
+.register-input5 {
+  height: 20px;
+  margin-top: 20px;
+  width: 90%;
+  padding: 6px;
+}
+.register-input5:hover {
+  outline: none;
+}
+
+.register-input6 {
+  height: 20px;
+  margin-top: 20px;
+  width: 90%;
+  padding: 6px;
+}
+.register-input6:hover {
+  outline: none;
+}
+
+.register-input7 {
+  height: 20px;
+  margin-top: 20px;
+  width: 90%;
+  padding: 6px;
+}
+.register-input7:hover {
+  outline: none;
+}
+
+.btn-register {
+  background-color: #3b9ff3;
+  font-weight: bold;
+  color: whitesmoke;
+  padding: 9px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-left: 62%;
+  width: 26%;
+  cursor: pointer;
+
+  border: 1px solid white;
+  box-shadow: none;
+}
+
+.btn-register:hover {
+  background-color: #3b9ff3;
+  font-weight: bold;
+  color: white;
+  padding: 9px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-left: 62%;
+  width: 25%;
+  cursor: pointer;
+}
+.btnregister2 {
+  background-color: #3b9ff3;
+  font-weight: bold;
+  color: whitesmoke;
+  padding: 9px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-left: 69%;
+  width: 26%;
+  cursor: pointer;
+
+  border: 1px solid white;
+}
+.btnregister2:hover {
+  background-color: #3b9ff3;
+  font-weight: bold;
+  color: white;
+  padding: 9px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-left: 69%;
+  width: 25%;
+  cursor: pointer;
+
+  border: 1px solid white;
+  box-shadow: none;
+}
+
+.maintext {
+  text-align: left;
+  margin-left: 200px;
+}
+
+.inputname {
+  margin-right: 480px;
+}
+
+/* 
+
+///////REGISTRATION PAGE TEXT */
+
+.reg-head {
+  color: #a90329;
+  font-weight: bold;
+  font-family: 24px "Open Sans" Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    background-color: red;
+    width: 100%;
+  }
+  .nav-button-sign {
+    height: 39px;
+    margin-top: 16px;
+    background-color: #282828;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding: 6px;
+    border-radius: 5px;
+    margin-left: 13px;
+    flex: 0.3;
+    cursor: pointer;
+  }
+  .btnregister2 {
+    background-color: #3b9ff3;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 9px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: 72%;
+    width: 22%;
+    cursor: pointer;
+  }
+  .maintext {
+    display: none;
+  }
+  .inputname {
+    margin-right: 1px;
+  }
+}
+/* ///////// */
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 6px;
+  color: gray;
+  min-width: 20px;
+  text-align: center;
+  margin-top: 26px;
+  border-right: 1px solid gray;
+}
+.input-field {
+  width: 90%;
+
+  text-align: center;
+  height: 20px;
+  margin-top: 20px;
+
+  padding: 6px;
+}
+
+/* /////////////////////////////// */
+
+.input-icons2 i {
+  position: absolute;
+}
+
+.input-icons2 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon2 {
+  padding: 6px;
+  color: gray;
+  min-width: 20px;
+  text-align: center;
+  margin-top: 26px;
+  border-right: 1px solid gray;
+}
+.input-field2 {
+  width: 90%;
+
+  text-align: center;
+  height: 20px;
+  margin-top: 20px;
+
+  padding: 6px;
+}

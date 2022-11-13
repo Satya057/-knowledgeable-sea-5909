@@ -1,0 +1,28 @@
+.uk_card {
+  display: flex;
+  background-color: white;
+  margin-top: 60px;
+}
+.uk_img1 {
+  height: 40px;
+  flex: 0.3;
+}
+.uk_img2 {
+  height: 40px;
+  flex: 0.2;
+}
+
+.uk_bttn1 {
+  margin-top: 30px;
+  background-color: #0f7ae5;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid gray;
+  width: 60%;
+}
+
+.uk_fonthead {
+  color: #333333;
+  font-size: 22.5px;
+}

@@ -1,0 +1,101 @@
+.mainDiv{
+    height: calc(100vh - 200px);
+    background: black;
+    overflow: hidden;
+    position: relative;
+}
+.mainDiv > img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    position: absolute!important;
+    vertical-align: middle;
+    filter: brightness(60%);
+    z-index: 1;
+}
+.textDiv{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: max-content;
+    max-width: 100%;
+    box-sizing: border-box;
+    position: absolute!important;
+    z-index: 2;
+}
+.searchWidget{
+    background: white;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+}
+.searchWidget > a{
+    margin: 0% !important;
+    padding: 0% !important;
+    box-sizing: border-box;
+}
+.inp_location{
+    display: flex;
+    vertical-align: middle;
+}
+.inp_location input{
+    height: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    padding-left: 40px!important;
+    max-width: 100%;
+    width: 100%;
+    padding: 0 10px;
+    background: #fff;
+    color: #666;
+    border: 1px solid #e5e5e5;
+    transition: .2s ease-in-out;
+    transition-property: color,background-color,border;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    margin: 0;
+    border-radius: 0;
+    font: inherit;
+    overflow: visible
+}
+.searchIcon{
+    position: absolute;
+    bottom: 17px;
+    left: 10;
+    width: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    pointer-events: none;
+}
+.chckk{
+    width: 140px;
+}
+.guestInput{
+    width: 200px;
+}
+.searchBtn{
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: #1e87f0;
+    color: #fff;
+    border: 1px solid transparent;
+    margin: 0;
+    overflow: visible;
+    font: inherit;
+    display: inline-block;
+    padding: 0 30px;
+    vertical-align: middle;
+    font-size: .875rem;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+    transition-property: color,background-color,border-color;
+}
