@@ -5,6 +5,7 @@ import axios from "axios"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import {Link} from "react-router-dom"
   
 const Availability = () => {
     const [hotelData,setHotelData] = useState([])
@@ -76,7 +77,7 @@ const Availability = () => {
             <Input padding="10px" placeholder="Check In" border="1px solid grey"></Input>
             <Input padding="10px" placeholder="Check Out" border="1px solid grey"></Input>
             <Input padding="10px" placeholder="Select Guests" border="1px solid grey"></Input>
-            <Button padding="10px 60px" bg="#1e87f0" color="white" border="1px solid grey">SEARCH</Button>
+           <Link to="/search" > <Button padding="10px 60px" bg="#1e87f0" color="white" border="1px solid grey">SEARCH</Button></Link>
         </Box>
       </Container>
 

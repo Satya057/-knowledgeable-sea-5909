@@ -80,7 +80,7 @@ import { useParams } from "react-router-dom";
   
   
   const HotelPage = () => {
-    const [hotelData,setHotelData] = useState([])
+    const [hotelData,setHotelData] = useState()
     const params = useParams()
     console.log(params)
     const getData = ()=>{
