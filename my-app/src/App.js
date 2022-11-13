@@ -14,6 +14,9 @@ import About from './Components/Extras/About';
 import Faq from './Components/Extras/Faq';
 import Privacy from './Components/Extras/Privacy';
 import Terms from './Components/Extras/Terms';
+import Availability from './Components/Hotels/Availability';
+import HotelsPage from './Components/Hotels/HotelsPage';
+import HotelPage from './Components/Hotels/HotelPage';
 function App() {
   return (<>
     <div className="App">
@@ -41,6 +44,10 @@ function App() {
        <Route path="/faq" element={<ChakraProvider><Faq/></ChakraProvider>}/>
        <Route path="/privacy" element={<ChakraProvider><Privacy/></ChakraProvider>}/>
        <Route path="/terms" element={<ChakraProvider><Terms/></ChakraProvider>}/>
+       <Route path="/holiday-homes/:id" element={<ChakraProvider><Availability/></ChakraProvider>}/>
+       <Route path="/search" element={<ChakraProvider><HotelsPage/></ChakraProvider>}/>
+       <Route path="/search/:id" element={<ChakraProvider><HotelPage/></ChakraProvider>}/>
+
           </Routes>
           <Footer/>
 </div>

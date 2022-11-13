@@ -77,7 +77,7 @@ function ExploreDisplay() {
      {`${data.AboutProject}`}
      </Text>
      <Heading my='50px'>
-      About This Project
+     Anemities
      </Heading>
      <SimpleGrid gap="40px" columns={{lg:4,md:2,sm:1,base:1}} m='auto' w="80%">
      {(data.anemities)?data.anemities.map((e)=><Box p={4} display='flex' justifyContent='center' alignItems='center' boxShadow="rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;"><Text>{e}</Text></Box>):""}
