@@ -24,7 +24,7 @@
 <ul>
 <li> Responsiveness using Chakra UI</li>
    
-   <li>list property</li> 
+   <li>Sign In/Sign Up</li> 
     <li>Carousal Effect
     <li>Tabs using Chakra UI</li> 
     <li>Drawer using Chakra UI</li> 
