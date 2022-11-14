@@ -84,7 +84,7 @@ import { useParams } from "react-router-dom";
     const params = useParams()
     console.log(params)
     const getData = ()=>{
-      axios.get(`http://localhost:8000/results/${params.id}`).then((res)=>{
+      axios.get(`${process.env.REACT_APP_BASE_URL}/results/${params.id}`).then((res)=>{
         setHotelData(res.data)
       })
   }

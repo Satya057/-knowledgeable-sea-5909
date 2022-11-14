@@ -9,7 +9,7 @@ import { useState } from 'react'
 function ExploreInvestment() {
    const [data , setData] = useState([]);
    useEffect(()=>{
-      axios.get('http://localhost:8000/exploreinvenstment')
+      axios.get(`${process.env.REACT_APP_BASE_URL}/exploreinvenstment`)
   .then(function (response) {
     // handle success
     console.log(response.data);

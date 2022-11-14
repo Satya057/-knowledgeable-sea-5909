@@ -14,12 +14,12 @@ export default function Carasol(){
    
     const requestParam = {
       method: "get",
-      url: "https://tripvilla.herokuapp.com/hotels",
+      url: `${process.env.REACT_APP_BASE_URL}/hotels`,
     };
     axios(requestParam)
       .then((response) => {
-        console.log(response.data.data);
-        settext(response.data.data);
+        console.log(response.data);
+        settext(response.data);
       })
       .catch((err) => console.log(err))
       .finally(() => {

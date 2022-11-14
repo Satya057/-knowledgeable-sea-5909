@@ -30,7 +30,7 @@ getData("")
 },[])
 
     const getData=async (prop)=>{
-     const res=await axios.get("http://localhost:8000/results");
+     const res=await axios.get(`${process.env.REACT_APP_BASE_URL}/results`);
      const data=res.data
      
      let updatedData=[]

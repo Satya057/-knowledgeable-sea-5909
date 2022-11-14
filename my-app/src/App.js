@@ -18,6 +18,7 @@ import Availability from './Components/Hotels/Availability';
 import HotelsPage from './Components/Hotels/HotelsPage';
 import HotelPage from './Components/Hotels/HotelPage';
 function App() {
+   console.log(process.env.REACT_APP_BASE_URL);
   return (<>
     <div className="App">
     <NavBar/>

@@ -15,7 +15,7 @@ const Availability = () => {
     },[])
 
     const getData=async ()=>{
-     const res=await axios.get("http://localhost:8000/results")
+     const res=await axios.get(`${process.env.REACT_APP_BASE_URL}/results`)
      const data=res.data
      setHotelData(data)
 
