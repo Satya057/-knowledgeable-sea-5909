@@ -15,8 +15,7 @@
 <div><h4>Live Link</h4>
 <a src="https://villroshell.netlify.app/"></a>
 </div>
-
- https://tripsvilla-clone-project.netlify.app/
+https://villroshell.netlify.app/
 <h2>Tech Stack</h2>
 
 <h3>Client: React, Redux, ChakraUI, React-Slick,Material UI,</h3>
