@@ -10,7 +10,7 @@ function ExploreDisplay() {
    
     const param = useParams()
     
-    const getData=()=>{ axios.get(`http://localhost:8000/exploreinvenstment/${param.id}`).then((res)=>{
+    const getData=()=>{ axios.get(`${process.env.REACT_APP_BASE_URL}/exploreinvenstment/${param.id}`).then((res)=>{
              setData(res.data)
      })}
     useEffect(()=>{
