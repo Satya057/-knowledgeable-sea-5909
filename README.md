@@ -1,6 +1,30 @@
 <h1> Clone Of TripVillas</h1>
 
 <h4>This a collaborative project done by my team</h4>
+**Landing Page**
+
+![App Screenshot](https://github.com/deepRaj06/kindly-earthquake-283/blob/master/Screenshots/LandingPage.png?raw=true)
+
+**Signup Page**
+
+![App Screenshot](https://github.com/deepRaj06/kindly-earthquake-283/blob/master/Screenshots/SignupForm.png?raw=true)
+
+**Login Page**
+
+![App Screenshot](https://github.com/deepRaj06/kindly-earthquake-283/blob/master/Screenshots/LoginForm.png?raw=true)
+
+**Posting New Property First Page**
+
+![App Screenshot](https://github.com/deepRaj06/kindly-earthquake-283/blob/master/Screenshots/PostingNewProperty.png?raw=true)
+
+**Footer**
+
+![App Screenshot](https://github.com/deepRaj06/kindly-earthquake-283/blob/master/Screenshots/Footer.png?raw=true)
+
+**Single Hotel Room Page**
+
+![App Screenshot](https://github.com/deepRaj06/kindly-earthquake-283/blob/master/Screenshots/IndividualRoomDetails.png?raw=true)
+
 
 
 
