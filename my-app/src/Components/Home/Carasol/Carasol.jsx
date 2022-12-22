@@ -14,7 +14,7 @@ export default function Carasol(){
    
     const requestParam = {
       method: "get",
-      url: `${process.env.REACT_APP_BASE_URL}/hotels`,
+      url: `${process.env.REACT_APP_BASE_URL}/topDestinations`,
     };
     axios(requestParam)
       .then((response) => {
@@ -55,9 +55,9 @@ export default function Carasol(){
         {text.map((item, index) => (
           <div key={index}>
             <div className="bg-image" >
-              <Link to={`/holiday-homes/${item._id}`}>
+              <Link to={`/holiday-homes/${item.location}`}>
                 <img
-                  src={item.hotImg1}
+                  src={item.img}
                   style={{
                     height: "180px",
                     width: "300px",
@@ -74,9 +74,9 @@ export default function Carasol(){
                 marginLeft: "120px",
               }}
             >
-              {item.city} <br />{" "}
+              {item.location} <br />{" "}
               <a href style={{ color: "white" }}>
-                Vacation Rental
+                {item.text}
               </a>
             </h2>
           </div>
