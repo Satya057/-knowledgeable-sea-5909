@@ -10,9 +10,9 @@
 <li>Shivani Awasthi</li>
 <li>Nitesh Sindhu</li>
 <li>Dinesh Solanki
-   -Availability Page
-   -Hotels page
-   -Single Hotel page
+   <li>-Availability Page</li>
+   <li>-Hotels page</li>
+   <li>-Single Hotel page</li>
 </li>
 
 </ul>
