@@ -14,9 +14,9 @@ import About from './Components/Extras/About';
 import Faq from './Components/Extras/Faq';
 import Privacy from './Components/Extras/Privacy';
 import Terms from './Components/Extras/Terms';
-import Availability from './Components/Hotels/Availability';
 import HotelsPage from './Components/Hotels/HotelsPage';
 import HotelPage from './Components/Hotels/HotelPage';
+import Availability from './Components/Hotels/Availability/Availability';
 function App() {
    console.log(process.env.REACT_APP_BASE_URL);
   return (<>

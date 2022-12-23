@@ -1,0 +1,42 @@
+.search_by_dates_container {
+    max-width: 90%;
+    color: black;
+    border: 1px solid;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 40px;
+
+}
+
+.main_heading{
+    font-size:28px;
+    text-align:center;
+    font-weight:100
+}
+
+.second_main_heading{
+    font-size:20px;
+    text-align:center;
+    font-weight:100;
+    margin-top: 20px;
+}
+
+.inputs_box{
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.input_tag{
+    border:1px solid grey;
+    padding:10px
+}
+
+.search_by_dates_button{
+    padding:10px 60px;
+    color:white;
+    border:1px solid grey;
+}
