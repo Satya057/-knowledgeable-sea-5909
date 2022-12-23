@@ -84,8 +84,8 @@ function ExploreCard(props) {
               colorScheme="orange"
               px="70px"
             >
-              {unlock ? "Explore" : "Unlock"} // displays unlock if unlock is
-              false otherwise it displays Explore on Button
+              {unlock ? "Explore" : "Unlock"} {/* displays unlock if unlock is
+              false otherwise it displays Explore on Button*/}
             </Button>
           </Flex>
         </Flex>
