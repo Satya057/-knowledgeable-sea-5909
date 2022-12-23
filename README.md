@@ -16,6 +16,9 @@
 <h4>Responsibilities</h4>
 <ol>
 <li>Dinesh Solanki</li>
+<p>-Availability Page</p>   
+<p>-Hotels Page</p>   
+<p>-Single Hotel Page</p>   
 </ol>
 
 
