@@ -9,11 +9,7 @@
 <li>Mohd Anas Quraishi</li>
 <li>Shivani Awasthi</li>
 <li>Nitesh Sindhu</li>
-<li>Dinesh Solanki
-   <li>-Availability Page</li>
-   <li>-Hotels page</li>
-   <li>-Single Hotel page</li>
-</li>
+<li>Dinesh Solanki</li>
 
 </ul>
 
