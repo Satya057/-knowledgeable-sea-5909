@@ -9,11 +9,14 @@
 <li>Mohd Anas Quraishi</li>
 <li>Shivani Awasthi</li>
 <li>Nitesh Sindhu</li>
-<li>Dinesh Solanki
-   <br/>
-   -hjfhjf</li>
+<li>Dinesh Solanki</li>
 
 </ul>
+
+<h4>Responsibilities</h4>
+<ol>
+<li>Dinesh Solanki</li>
+</ol>
 
 
 <div><h4>Live Link</h4>
