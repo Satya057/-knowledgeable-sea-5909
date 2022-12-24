@@ -13,7 +13,6 @@ import {
   ModalOverlay,
   useDisclosure,
 } from "@chakra-ui/react";
-import { useEffect } from "react";
 
 function ImageVeiwer({ images, count }) {
   // descturing props send from ExploreDisplay

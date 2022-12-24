@@ -7,17 +7,20 @@ import { useState } from "react";
 // import styles from "./unlock.module.css";
 
 //  Static form component which will be imported belo in export funtion
-function Unlock() {
+function ToUnlock() {
+  const { toggleUnlock } = useContext(Explorecontext); // getting toggle Unlock form ExploreContext to change unlock status
+  const navigate = useNavigate();
   // States to manage only one selection of option in ech feilds
-  const [value, setValue] = useState("0");
-  const [value1, setValue1] = useState("0");
-  const [value2, setValue2] = useState("0");
-  const [value3, setValue3] = useState("0");
-  const [value4, setValue4] = useState("0");
-  const [value5, setValue5] = useState("0");
-  const [value6, setValue6] = useState("0");
-  const [value7, setValue7] = useState("0");
-  const [value8, setValue8] = useState("0");
+  const [value, setValue] = useState(null);
+  const [value1, setValue1] = useState(null);
+  const [value2, setValue2] = useState(null);
+  const [value3, setValue3] = useState(null);
+  const [value4, setValue4] = useState(null);
+  const [value5, setValue5] = useState(null);
+  const [value6, setValue6] = useState(null);
+  const [value7, setValue7] = useState(null);
+  const [value8, setValue8] = useState(null);
+  const [pageValidation , setPageValidation] = useState(false)
   return (
     <>
       {/* Static form */}
@@ -44,6 +47,7 @@ function Unlock() {
             </Radio>
           </Stack>
         </RadioGroup>
+        {pageValidation ? <Text color='red'>{(!value ? "* This Feild is Required *":"")}</Text>:""}
       </Box>
       <Box className="main">
         <h2 className="h2">What is the source of your wealth?</h2>
@@ -66,6 +70,7 @@ function Unlock() {
             </Radio>
           </Stack>
         </RadioGroup>
+        {pageValidation ? <Text color='red'>{(!value1 ? "* This Feild is Required *":"")}</Text>:""}
       </Box>
       <Box className="main">
         <h2 className="h2">Do you own your own residence at the moment?</h2>
@@ -79,6 +84,7 @@ function Unlock() {
             </Radio>
           </Stack>
         </RadioGroup>
+        {pageValidation ? <Text color='red'>{(!value2 ? "* This Feild is Required *":"")}</Text>:""}
       </Box>
       <Box className="main">
         <h2 className="h2">
@@ -94,6 +100,7 @@ function Unlock() {
             </Radio>
           </Stack>
         </RadioGroup>
+        {pageValidation ? <Text color='red'>{(!value3 ? "* This Feild is Required *":"")}</Text>:""}
       </Box>
       <Box className="main">
         <h2 className="h2">Do you own any commercial space you are renting?</h2>
@@ -107,6 +114,7 @@ function Unlock() {
             </Radio>
           </Stack>
         </RadioGroup>
+        {pageValidation ? <Text color='red'>{(!value4 ? "* This Feild is Required *":"")}</Text>:""}
       </Box>
       <Box className="main">
         <h2 className="h2">Any Geographic Preferences?</h2>
@@ -144,6 +152,7 @@ function Unlock() {
             </Radio>
           </Stack>
         </RadioGroup>
+        {pageValidation ? <Text color='red'>{(!value5 ? "* This Feild is Required *":"")}</Text>:""}
       </Box>
       <Box className="main">
         <h2 className="h2">Which age bracket do you fall into?</h2>
@@ -163,6 +172,7 @@ function Unlock() {
             </Radio>
           </Stack>
         </RadioGroup>
+        {pageValidation ? <Text color='red'>{(!value6 ? "* This Feild is Required *":"")}</Text>:""}
       </Box>
       <Box className="main">
         <h2 className="h2">What are you in your professional life?</h2>
@@ -185,6 +195,7 @@ function Unlock() {
             </Radio>
           </Stack>
         </RadioGroup>
+        {pageValidation ? <Text color='red'>{(!value7 ? "* This Feild is Required *":"")}</Text>:""}
       </Box>
       <Box className="main">
         <h2 className="h2">Do you already have a Tripvillas Account?</h2>
@@ -198,16 +209,9 @@ function Unlock() {
             </Radio>
           </Stack>
         </RadioGroup>
+        {pageValidation ? <Text color='red'>{(!value8 ? "* This Feild is Required *":"")}</Text>:""}
       </Box>
-    </>
-  );
-}
-
-function ToUnlock() {
-  const { toggleUnlock } = useContext(Explorecontext); // getting toggle Unlock form ExploreContext to change unlock status
-  const navigate = useNavigate();
-  return (
-    <Box textAlign="center" w="95%" m="auto">
+      <Box textAlign="center" w="95%" m="auto">
       <Heading>Tell Us More To Unlock Income Generating Opportunities</Heading>
       <Text>
         Investing in Real Estate is meant for Sophisticated Investors. By
@@ -215,20 +219,29 @@ function ToUnlock() {
         requirements and suggest what opportunities would fit you best. Post
         filling in the form, you will see all oppportunities
       </Text>
-      <Unlock /> {/* componet created above tis Component */}
+      
       <Button
         m="auto"
         onClick={() => {
-          // Onclick changing Unloack Status and Navigating to ExploreInvestment page to see unloacked items
-          toggleUnlock(true);
-          navigate("/explore-investment");
+          // Onclick changing Unlock Status and Navigating to ExploreInvestment page to see unloacked items
+          if(value && value1 && value2 && value3 && value4 && value5 && value6 && value7 && value8){      // checks if all required feilds are selected
+            
+            toggleUnlock(true);             // changing unlock status to true
+            navigate("/explore-investment");       
+          }else{
+            console.log(value)
+             setPageValidation(true)       // checks the submit attempt
+          }
         }}
         colorScheme="teal"
       >
         Submit
       </Button>
     </Box>
+    </>
   );
 }
+
+
 
 export default ToUnlock;
