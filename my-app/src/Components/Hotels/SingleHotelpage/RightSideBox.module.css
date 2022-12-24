@@ -1,0 +1,26 @@
+.right_side_main_box{
+    right: 0;
+    padding: 4%;
+    border-left: 1px solid grey;
+}
+
+.right_side_text{
+    margin-top: 80px;
+    color: grey;
+    font-size: 20px;
+}
+
+.right_side_input{
+    margin-top: 10px;
+    border-color: grey;
+    border-radius: 0;
+}
+
+.right_side_button{
+    font-size: 10px;
+    width: 100%;
+    background-color: #4780b8;
+    color: white;
+    margin-top: 10px;
+    border-radius: 0px;
+}
