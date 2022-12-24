@@ -47,7 +47,11 @@ https://villroshell.netlify.app/
 
 
 ![Home](https://user-images.githubusercontent.com/105920688/208399602-b66ab7eb-724c-4f1e-85e1-8bdc406de125.png)    
-  
+ 
+
+<h3>Home page</h3> 
+ 
+ 
 ![Homes](https://user-images.githubusercontent.com/105920688/208399538-281159bf-1075-4743-901d-2dcf112689f0.png)
 
 ![Hotel](https://user-images.githubusercontent.com/105920688/208399555-19321582-83fb-4a16-8e4f-f3e68d048464.png)
