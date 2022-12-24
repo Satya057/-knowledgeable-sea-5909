@@ -119,7 +119,7 @@ function ExploreDisplay() {
           if (i >= 8) {
             return;
           } else {
-            return <ImageVeiwer images={data.images} count={i} />; // passing images array in props and count of particular image index in ImageViewer Component
+            return <ImageVeiwer key={e+i} images={data.images} count={i} />; // passing images array in props and count of particular image index in ImageViewer Component
           }
         })}
       </SimpleGrid>

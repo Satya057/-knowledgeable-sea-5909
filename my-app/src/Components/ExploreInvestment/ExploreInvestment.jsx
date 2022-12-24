@@ -44,11 +44,11 @@ function ExploreInvestment() {
                 <>
                   <Whatis />{" "}
                   {/*imported component which is been appended at after specific element */}
-                  <ExploreCard {...e} />
+                  <ExploreCard key={e.keyId + e.id + i} {...e} />
                 </>
               );
             }
-            return <ExploreCard key={e.keyId + e.id} {...e} />; // passing full element in ExploreCard component as a prop
+            return <ExploreCard key={e.keyId + e.id + i} {...e} />; // passing full element in ExploreCard component as a prop
           })
         : ""}
     </Box>
