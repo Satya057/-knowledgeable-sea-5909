@@ -43,7 +43,7 @@ https://villroshell.netlify.app/
      <li>API call by using axios</li>
     </ul>
     
-<h4>Home page</h4>  
+<li>Home page</li>  
 ![Home](https://user-images.githubusercontent.com/105920688/208399602-b66ab7eb-724c-4f1e-85e1-8bdc406de125.png)    
   
 ![Homes](https://user-images.githubusercontent.com/105920688/208399538-281159bf-1075-4743-901d-2dcf112689f0.png)
