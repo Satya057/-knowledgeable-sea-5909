@@ -46,7 +46,15 @@ https://villroshell.netlify.app/
 <h3>Home page</h3>  
 
 
-![Home](https://user-images.githubusercontent.com/105920688/208399602-b66ab7eb-724c-4f1e-85e1-8bdc406de125.png)    
+![Home](https://user-images.githubusercontent.com/105920688/208399602-b66ab7eb-724c-4f1e-85e1-8bdc406de125.png)   
+
+
+
+<h3>Login page</h3>
+
+
+
+![Login](https://user-images.githubusercontent.com/105920688/208399572-49956810-6f18-4ac9-9726-30e694ca5124.png)
  
 
 
@@ -66,14 +74,6 @@ https://villroshell.netlify.app/
 
 
 ![Hotel](https://user-images.githubusercontent.com/105920688/208399555-19321582-83fb-4a16-8e4f-f3e68d048464.png)
-
-
-
-<h3>Login page</h3>
-
-
-
-![Login](https://user-images.githubusercontent.com/105920688/208399572-49956810-6f18-4ac9-9726-30e694ca5124.png)
 
 
 
