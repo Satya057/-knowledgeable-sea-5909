@@ -8,9 +8,7 @@ import { store } from './Redux/store';
 import { BrowserRouter } from 'react-router-dom';
 import ExplorecontextProvider from './context/ExploreContext/ExploreContextProvider';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    
+root.render(    
     <BrowserRouter>
     <ExplorecontextProvider>
     <Provider store={store}>
@@ -18,8 +16,6 @@ root.render(
     </Provider>
     </ExplorecontextProvider>
     </BrowserRouter>
-   
-  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

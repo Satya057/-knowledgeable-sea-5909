@@ -13,18 +13,50 @@ import {
   ModalOverlay,
   useDisclosure,
 } from "@chakra-ui/react";
+import { useEffect } from "react";
 
 function ImageVeiwer({ images, count }) {
   // descturing props send from ExploreDisplay
   const [imgCount, setImgCount] = useState(count);
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const slideLeft = () => {
+    if (imgCount < 0) {
+      // previous image
+      // check if index is first index it will make it last
+      setImgCount(images.length - 1);
+    } else {
+      setImgCount(imgCount - 1); // decrement imgCount so that we can see previous image wit help of index
+    }
+  };
+  const slideRight = () => {
+    // next image
+    if (imgCount >= images.length - 1) {
+      // if index of image is last index it will make index first index
+      setImgCount(0);
+    } else {
+      setImgCount(imgCount + 1); // increment imgCount so that we can see next image wit help of index
+    }
+  };
+
+  const manageNavigation = (e) => {
+    // check keys if left navigate left if right navogate image right
+    if (e.key === "ArrowLeft") {
+      slideLeft();
+    }
+    if (e.key === "ArrowRight") {
+      slideRight();
+    }
+  };
 
   return (
     <>
       {count === 7 ? (
         <Box
           backgroundSize="cover"
-          onClick={onOpen} // opens a modal where we can see Targeted Image as preview
+          onClick={() => {
+            setImgCount(count);
+            onOpen();
+          }} // opens a modal where we can see Targeted Image as preview
           display="flex"
           justifyContent="center"
           color="white"
@@ -39,7 +71,10 @@ function ImageVeiwer({ images, count }) {
       ) : (
         <Box
           backgroundSize="cover"
-          onClick={onOpen} // opens a modal where we can see Targeted Image as preview
+          onClick={() => {
+            setImgCount(count);
+            onOpen();
+          }} // opens a modal where we can see Targeted Image as preview
           height="200px"
           backgroundImage={`url('${images[count]}')`}
         ></Box>
@@ -51,7 +86,11 @@ function ImageVeiwer({ images, count }) {
         onClose={onClose}
       >
         <ModalOverlay />
-        <ModalContent bg="" backdropFilter="blur(10px)">
+        <ModalContent
+          onKeyUp={manageNavigation}
+          bg=""
+          backdropFilter="blur(10px)"
+        >
           <ModalHeader color="white" textAlign="center">
             Preview
           </ModalHeader>
@@ -66,27 +105,13 @@ function ImageVeiwer({ images, count }) {
           <ModalFooter gap="100px" justifyContent="center" display="flex">
             <Button // left button to navigate previous image
               variant="outline"
-              onClick={() => {
-                if (imgCount < 0) {
-                  // check if index is first index it will make it last
-                  setImgCount(images.length - 1);
-                } else {
-                  setImgCount(imgCount - 1); // decrement imgCount so that we can see previous image wit help of index
-                }
-              }}
+              onClick={slideLeft}
             >
               <AiOutlineLeft size={20} color="white" />
             </Button>
             <Button // left button to navigate next image
               variant="outline"
-              onClick={() => {
-                if (imgCount >= images.length - 1) {
-                  // if index of image is last index it will make index first index
-                  setImgCount(0);
-                } else {
-                  setImgCount(imgCount + 1); // increment imgCount so that we can see next image wit help of index
-                }
-              }}
+              onClick={slideRight}
             >
               <AiOutlineRight size={20} color="white" />
             </Button>
