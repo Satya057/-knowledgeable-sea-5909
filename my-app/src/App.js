@@ -1,7 +1,7 @@
 
 import './App.css';
 import { NavBar } from './Components/Home_NavBar/NavBar';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import LogIn from './Components/LogIn/LogIn';
 import { Register } from './Components/LogIn/Register/Register';
 import Home from './Components/Home/Home';
@@ -17,8 +17,14 @@ import Terms from './Components/Extras/Terms';
 import HotelsPage from "./Components/Hotels/Hotels/HotelsPage"
 import HotelPage from "./Components/Hotels/SingleHotelpage/HotelPage"
 import Availability from './Components/Hotels/Availability/Availability';
+import { useEffect } from 'react';
 function App() {
+  const {pathname } = useLocation()
    console.log(process.env.REACT_APP_BASE_URL);
+   useEffect(() => {
+    window.scroll(0,0)
+   }, [pathname ])
+   
   return (<>
     <div className="App">
     <NavBar/>
